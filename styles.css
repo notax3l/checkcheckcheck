@@ -1,0 +1,129 @@
+/* Basic css styling for the game */
+body {
+    font-family: 'Roboto', sans-serif;
+    /* Giving it a nice font-family and a background color */
+    background-color: #0e0e0d;
+    /* For keeping all the content in the centre  */
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    /* Creating the body as a flex container  */
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Basic styling for the div that will conatin the content of the game */
+.SeeNSayContent {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Styling for the title of the game */
+/* Giving it a nice background color to make it pop out */
+.SeeNSayTitle {
+    font-family: 'Fredoka One', cursive;
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    background: rgba(255, 107, 107, 0.8);
+    margin-left: 60px;
+}
+
+/* Styling sections of the game , i.e the sections for the noun,verb,adjectives  */
+.section {
+    background-color: #7cc188;
+    /* Adding a margin to make the spacing look better */
+    margin: 15px;
+    /* Adding a round corner */
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* BASIC STYLING OF OTHER DIVS , SECTIONS AND HEADINGS */
+
+ .playcontainer {
+     background-color: #c8ff00;
+    border-radius: 20px;
+    padding: 30px;
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.storemakerdiv {
+    display: flex;
+      justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+
+ .section h2 {
+     font-family: 'Fredoka One', cursive;
+     color: #ffffff;
+    margin-top: 0;
+}
+
+.wordshow {
+     font-size: 1.2rem;
+    font-weight: bold;
+    margin: 15px 0;
+    min-height: 30px;
+}
+
+.getword {
+    background-color: #000000;
+      color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 50px;
+     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.getword:hover {
+     background-color: #ff7096;
+}
+
+.storydiv {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+     margin-top: 30px;
+}
+
+.storydiv h2 {
+    font-family: 'Fredoka One', cursive;
+     color: #06d6a0;
+    margin-top: 0;
+}
+
+.story-text {
+     font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+    min-height: 60px;
+}
+
+.resetButton1 {
+    background-color: #22d606;
+    color: white;
+    border: none;
+     padding: 10px 20px;
+    font-size: 1rem;
+       border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.resetButton1:hover {
+     background-color: #cf435a;
+}
